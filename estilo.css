@@ -1,0 +1,31 @@
+body {background-color: rgba(105, 16, 16, 0.829);}
+header {background-color: rgb(121, 20, 20);}
+nav {background-color: rgba(255, 255, 255, 0.534);}
+article {background-color: rgb(255, 255, 255);}
+.sec1 {background-color: rgb(126, 31, 31);}
+.sec2 {background-color: rgb(114, 3, 3);}
+aside {background-color: rgba(73, 73, 73, 0.438);}
+footer {background-color: rgb(59, 10, 10);}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto auto;
+    min-height: 100vh;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+}
+
+table,th,td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
